@@ -1,0 +1,63 @@
+/* Begin of Service detail section  */
+.service-detail-sec .fire-img img {
+    width: 100%;
+    position: absolute;
+    top: -44px;
+    right: 0;
+}
+.service-detail-sec {
+    position: relative;
+}
+.service-detail-sec .fire-btn a {
+    font-size: 16px;
+    background-color: #AE0012;
+    color: #ffffff;
+    font-family: inter-meduim;
+    padding: 10px 28px;
+    border: unset;
+    text-decoration: none;
+}
+.service-detail-sec .back-pic {
+    background-image: url('../img/callimg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 10px;
+    position: relative;
+    margin-top: 90px;
+}
+
+.service-detail-sec{
+    background-image: url('../img/sdetailback.png') !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    width: 100% !important;
+}
+/* End of service detail section  */
+
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+}
+
+@media(max-width: 768px){
+    .service-detail-sec .back-pic {
+        width: auto;
+    }
+}
+
+@media(max-width: 480px){
+    .immer-text h2 {
+        font-size: 26px;
+    }
+    .immer-text a {
+        padding: 0px 3px;
+    }
+    .call a {
+        font-size: 20px;
+    }
+    .callimg img {
+        width: 64%;
+    }
+}
+
+/* ************************End of Responsive****************** */

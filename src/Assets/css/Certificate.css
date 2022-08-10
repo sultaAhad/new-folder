@@ -1,0 +1,44 @@
+/* Begin of Certificate section  */
+section.certificate-sec {
+    background-image: url('../img/certi-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 0px;
+}
+.certificate-text h2 {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.certificate-text p {
+    font-size: 15px;
+    color: #ffffff;
+    font-family: 'Poppins-Regular';
+}
+.certificate {
+    text-align: center;
+}
+.certificateimg {
+    padding: 60px 0px;
+}
+.certificateimg img {
+    width: auto;
+}
+section.certificate-sec .row {
+    display: flex;
+    align-items: center;
+}
+/* End of Certificate section  */
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+}
+
+@media(max-width: 768px){
+}
+
+@media(max-width: 480px){
+}
+
+
+/* ************************End of Responsive****************** */

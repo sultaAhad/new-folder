@@ -1,0 +1,60 @@
+/* Begain of Project detail  */
+section.project-sec {
+    background-image: url('../img/service-ban.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0px;
+}
+/* End of project detail  */
+
+
+/* Begin of Skills Section  */
+section.skills-sec {
+    background-image: url('../img/pdetailback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.projectsec-text h2 {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.projectsec-text p {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'inter-regular';
+}
+.projectsec-text h5 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'inter-meduim';
+}
+.skills-text h2 {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.skills-text p {
+    font-size: 16px;
+    color: #ffffff87;
+    font-family: 'Poppins-Regular';
+}
+.skills-text h4 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Ubuntu-meduim';
+}
+.projectsec-img img {
+    width: 100%;
+}
+.skils-img img {
+    width: 100%;
+}
+.projectsec-text {
+    padding-top: 50px;
+}
+/* End of Skilss Section  */

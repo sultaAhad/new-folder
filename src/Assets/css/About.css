@@ -1,0 +1,317 @@
+/* Begin of inner Banner  */
+.innerimg img {
+    width: 100%;
+}
+
+.innertextflex {
+    position: absolute;
+    top: 230px;
+    right: 0;
+    left: 0;
+    bottom: unset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.immer-text h2 {
+    font-size: 52px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.immer-text a {
+    font-size: 14px;
+    color: #ffffff !IMPORTANT;
+    font-family: 'Poppins-Regular';
+    padding: 0px 25px;
+}
+.immer-text span {
+    color: #ffffff;
+    font-family: 'Poppins-Regular';
+}
+/* End of Inner Banner  */
+
+/* Begin of who we are banner section  */
+.whowesec-img img {
+    width: 100%;
+}
+section.whoweare-sec {
+    background-color: #0A3637;
+}
+.whoweare-text h2 {
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.whoweare-text p {
+    font-size: 16px;
+    color: #ffffff80;
+    font-family: 'Poppins-Regular';
+}
+p.forback {
+    font-size: 13px;
+    background-color: #2E5759;
+    padding: 22px 10px;
+    border-radius: 0px 7px 6px 0px;
+    position: relative;
+}
+.forback::before {
+    content: '';
+    width: 1%;
+    height: 51px;
+    background-color: #a20009;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+section.whoweare-sec {
+
+    padding: 90px 0px;
+    background-image: url('../img/About1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+/* End of who we are banner section  */
+
+/* Begin of why we choose section  */
+.box1 {
+    background-color: #2E5759;
+    position: relative;
+}
+.box-img img {
+    width: 20%;
+    position: absolute;
+    top: 20px;
+    right: 24px;
+}
+.box1 h2 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'poppins-semibold';
+    padding-top: 25px;
+}
+.box1 p {
+    font-size: 12px;
+    color: #ffffff;
+    font-family: 'Poppins-Regular';
+    line-height: 36px;
+}
+.box1 {
+    background-color: #2E5759;
+    position: relative;
+    padding: 20px 17px;
+    text-align: center;
+    height: 360px;
+    margin: 10px 0px;
+}
+section.whychooseus-sec {
+   background-image: url('../img/About2.png');
+   background-size: cover;
+   background-repeat: no-repeat;
+   width: 100%;
+
+    padding: 80px 0px;
+}
+.whychoosehead h2 {
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.whychoosehead {
+    text-align: center;
+    padding: 40px;
+}
+
+/* End of why we choose section */
+
+/* Begin of Mission section  */
+.mission-img img {
+    width: 100%;
+}
+.for-back-color {
+    background-image: url('../img/colpic.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    }
+    .mission-img img {
+        width: 100%;
+        position: relative;
+    }
+    section.Our-Mission-sec .col-md-6 {
+        padding: 0;
+    }
+    .mission-text {
+        background-color: #000000;
+        position: absolute;
+        bottom: 0;
+    }
+    .mission-text h3 {
+        font-size: 23px;
+        color: #ffffff;
+        font-family: 'ubuntu-medium';
+    }
+    .mission-text p {
+        font-size: 12px;
+        color: #ffffff;
+        font-family: 'Poppins-Regular';
+    }
+    .mission-text a {
+        font-size: 15px;
+        color: #ffffff !important;
+        font-family: 'ubuntu-medium';
+    }
+    .mission-text {
+        background-color: #00000085;
+        position: absolute;
+        bottom: 40px;
+        left: 100px;
+        width: 70%;
+        padding: 20px 20px;
+    }
+    .mission-stuff h3 {
+        font-size: 33px;
+        color: #ffffff;
+        font-family: 'Ubuntu-Bold';
+    }
+    .mission-stuff p {
+        font-size: 13px;
+        color: #ffffff;
+        font-family: 'Poppins-Regular';
+        width: 450px;
+    }
+    .mission-list ul li {
+        font-size: 13px;
+        color: #ffffff;
+        font-family: 'ubuntu-medium';
+        padding: 10px;
+    }
+    .mission-list ul {
+        list-style: none;
+    }
+    .mission-list ul li::before {
+        content: url('../img/liicon.png');
+        position: absolute;
+        left: 20px;
+    }
+    .mission-stuff {
+        padding: 0px 20px;
+        padding-top: 50px;
+    }
+    .mission-list {
+        padding: 0px 20px;
+    }
+
+    /* ************************Responsive****************** */
+@media(max-width: 1150px){
+    .innertextflex {
+        top: 200px;
+    }
+    .whoweare-text p {
+        font-size: 12px;
+    }
+    .whoweare-text p {
+        font-size: 11px;
+    }
+    .box1 h2 {
+        font-size: 11px;
+    }
+    .box1 p {
+        font-size: 12px;
+        line-height: 28px;
+    }
+    .box1 p {
+        font-size: 9px;
+    }
+    .box1 {
+        height: 300px;
+        
+    }
+    .mission-stuff p {
+        font-size: 10px;
+    }
+    .mission-list ul li {
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 768px){
+    .innertextflex {
+        top: 130px;
+    }
+    .immer-text h2 {
+        font-size: 33px;
+    }
+    .immer-text a {
+        padding: 0px 10px;
+    }
+    .whoweare-text p {
+        font-size: 9px;
+    }
+    .whoweare-text p {
+        font-size: 8px;
+    }
+    .box1 p {
+        line-height: 15px;
+    }
+    .box1 h2 {
+    
+        padding-top: 16px;
+    }
+    .mission-stuff p {
+        width: 350px;
+    }
+    .mission-stuff p {
+        font-size: 8px;
+    }
+    .mission-text p {
+        font-size: 9px;
+    }
+    .mission-text h3 {
+        font-size: 15px;
+    }
+    .mission-stuff {
+        padding-top: 15px;
+    }
+    .mission-list ul li {
+        padding: 4px;
+    }
+    .mission-stuff h3 {
+        font-size: 22px;
+    }
+    .mission-text {
+        left: 18px;
+        width: 90%;
+        
+    }
+    .box1 {
+        height: 257px;
+    }
+    .box1 {
+        padding: 20px 17px;
+        height: 268px;
+    }
+
+}
+@media(max-width: 480px){
+    .mission-stuff p {
+        width: 300px;
+    }
+    .mission-text {
+        background-color: #00000085;
+        position: absolute;
+        bottom: 40px;
+        left: 20px;
+        width: 90%;
+        padding: 20px 20px;
+}
+.innerimg img {
+    height: 240px;
+    object-fit: cover;
+}
+
+
+}
+
+/* ************************End of Responsive****************** */

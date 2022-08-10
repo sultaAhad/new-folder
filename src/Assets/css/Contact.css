@@ -1,0 +1,41 @@
+/* Begin Of Contact Us section  */
+section.contact-us {
+background-image: url('../img/fire-back.png');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+}
+/* End of Contact Us section  */
+
+/* Begin of contact section  */
+.form-head h2 {
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+section.contact-us {
+    padding: 70px 0px;
+}
+.form-all .textarea {
+    height: 150px;
+    border: 1px solid #ffffff;
+}
+.simplehomeimg img {
+    height: 530px;
+    object-fit: cover;
+}
+/* End of Contac section  */
+
+
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+}
+
+@media(max-width: 768px){
+}
+
+@media(max-width: 480px){
+}
+
+
+/* ************************End of Responsive****************** */

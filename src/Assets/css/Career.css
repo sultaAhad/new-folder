@@ -1,0 +1,87 @@
+/* Begin of Career Section   */
+.immer-text a {
+    font-size: 14px;
+    color: #ffffff !IMPORTANT;
+    font-family: 'Poppins-Regular';
+    padding: 0px 7px;
+}
+section.career-sec {
+    background-image: url('../img/career-ban.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 60px 0px;
+}
+.position-head h2 {
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.career-text h2 {
+    font-size: 33px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.career-text p {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Poppins-Regular';
+}
+.career-text p {
+    font-size: 14px;
+    color: #ffffff73;
+    font-family: 'Poppins-Regular';
+}
+section.career-sec .row {
+    display: flex;
+    align-items: center;
+}
+.position-table td {
+    color: #ffffff;
+}
+.table .thead-dark th {
+    color: #fff;
+    background-color: unset;
+    border-color: unset;
+    border: none;
+    background-image: url('../img/tableback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table td {
+    color: #fff;
+    background-color: unset;
+    border-color: unset;
+    border: none;
+    background-image: url('../img/tableback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.position-head {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+/* End of Career section */
+
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+}
+
+@media(max-width: 768px){
+}
+
+@media(max-width: 480px){
+    .position-table td {
+        min-width: 190px;
+    }
+    .position-table {
+        overflow-x: auto;
+    }
+    .table {
+        overflow-x: auto !important;
+    }
+}
+
+
+/* ************************End of Responsive****************** */

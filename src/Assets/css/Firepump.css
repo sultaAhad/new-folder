@@ -1,0 +1,94 @@
+/* Begin of Banner section  */
+.immer-text a {
+    font-size: 14px;
+    color: #ffffff !IMPORTANT;
+    font-family: 'Poppins-Regular';
+    padding: 0px 28px;
+}
+/* End of Banner sectin  */
+
+/* Begin of simplerow section  */
+.for-padding {
+background-image: url('../img/simpleback.png');
+background-repeat: no-repeat;
+background-size: cover;
+width: 100%;
+}
+.simplerow-img h3 {
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'Poppins-Regular';
+}
+.simplerow-img h2 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Poppins-Regular';
+    font-family: 'poppins-meduim';
+}
+.simplerow-img {
+    text-align: center;
+}
+.for-borders {
+    border-right: 1px solid #ffffff8a;
+    border-left: 1px solid #ffffff8a;
+}
+section.simple-row-sec .row {
+    padding: 22px 0px;
+}
+.for-padding {
+    padding: 30px 0px;
+}
+section.simple-row-sec {
+    background-image: url('../img/fire-back.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+.form-all input {
+    width: 100%;
+    margin: 10p;
+    margin: 10px 0px;
+    padding: 10px;
+    background-color: transparent;
+}
+.form-all button {
+    width: 100%;
+    padding: 10px;
+    background-color: #b30013;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+}
+section.simple-row-sec {
+    padding: 60px 0px;
+}
+.form-all label {
+    font-size: 20px;
+    color: #ffffff;
+}
+input.file {
+    background: #b30013;
+    color: #ffffff;
+    width: 36%;
+    font-size: 10px;
+}
+.padding-back {
+    margin-top: 70px;
+}
+td a {
+    color: #ffffff;
+}
+/* End of simple row section  */
+
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+}
+
+@media(max-width: 768px){
+}
+
+@media(max-width: 480px){
+}
+
+
+/* ************************End of Responsive****************** */

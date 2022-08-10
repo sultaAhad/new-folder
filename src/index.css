@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Poppins-SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins-SemiBold'), url('./Assets/fonts/Poppins-SemiBold.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Poppins-Regular'), url('./Assets/fonts/Poppins-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'Visby-meduim';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Visby-meduim'), url('./Assets/fonts/VisbyMedium.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Meduim';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu-Meduim'), url('./Assets/fonts/Ubuntu-M.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'inter-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('inter-Regular'), url('./Assets/fonts/Inter-Regular.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'Ubuntu-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Ubuntu-Bold'), url('./Assets/fonts/Ubuntu-B.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'inter-meduim';
+  font-style: normal;
+  font-weight: normal;
+  src: local('inter-meduim'), url('./Assets/fonts/Inter-Medium.otf') format('woff');
+}
+
+@font-face {
+  font-family: 'opensans-regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('opensans-regular'), url('./Assets/fonts/OpenSans-Regular.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'opensans-meduim';
+  font-style: normal;
+  font-weight: normal;
+  src: local('opensans-meduim'), url('./Assets/fonts/OpenSans-SemiBold.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'ubuntu-light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ubuntu-light'), url('./Assets/fonts/Ubuntu-L.ttf') format('woff');
+}
+@font-face {
+  font-family: 'poppins-semibold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('poppins-semibold'), url('./Assets/fonts/Poppins-SemiBold.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'ubuntu-medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('ubuntu-medium'), url('./Assets/fonts/Ubuntu-M.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'poppins-meduim';
+  font-style: normal;
+  font-weight: normal;
+  src: local('poppins-meduim'), url('./Assets/fonts/Poppins-Medium.ttf') format('woff');
+}
+
+@font-face {
+  font-family: 'inter-regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('inter-regular'), url('./Assets/fonts/Inter-Regular.otf') format('woff');
+}

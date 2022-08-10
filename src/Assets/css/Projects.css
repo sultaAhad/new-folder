@@ -1,0 +1,76 @@
+/* Begin of project section  */
+section.Project-sec {
+    background-image: url('../img/project-ban.png');
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0px;
+    margin-bottom: -6px;
+}
+.project-img img {
+    width: 100%;
+}
+.Project-head h3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.Project-head h2 {
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Ubuntu-Bold';
+}
+.Project-head {
+    text-align: center;
+}
+.project-img img {
+    padding: 20px 0px;
+}
+.for-hover img {
+    width: 80%;
+}
+.for-hover h3 {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'opensans-regular';
+    margin-top: 15px;
+    padding: 0;
+    text-align: initial;
+    margin-left: 43px;
+}
+.for-hover {
+    background-image: url('../img/tableback.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.for-hover {
+    background-color: #ab0008;
+    padding: 43px;
+    position: absolute;
+    top: 21px;
+    height: 557px;
+    text-align: center;
+    width: 95%;
+    opacity: 0;
+    transition: 1s;
+}
+.project-img {
+    position: relative;
+}
+.for-hover:hover {
+    opacity: 1;
+}
+/* End of project section  */
+
+/* ************************Responsive****************** */
+@media(max-width: 1150px){
+}
+
+@media(max-width: 768px){
+}
+
+@media(max-width: 480px){
+}
+
+
+/* ************************End of Responsive****************** */

@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import AOS from 'aos';
+import AOS from "aos";
 
 import mainbanner from "../../Assets/img/mainbanner.png";
 import pic1 from "../../Assets/img/pic1.png";
@@ -30,14 +30,11 @@ import { Link } from "react-router-dom";
 // import 'https://unpkg.com/aos@2.3.1/dist/aos.css';
 
 function Home() {
-
-
-
   useEffect(() => {
     setTimeout(() => {
       AOS.init();
     }, 1000);
-  }, [])
+  }, []);
 
   return (
     <div>
@@ -49,20 +46,22 @@ function Home() {
           <div className="banner-text">
             <div data-aos="fade-left" className="banner-stuff">
               <h2>
-              EXPERIENCE THE DIFFERENCE WITH <br /> FIRETECH FIRE FIGHTING LLC
+                EXPERIENCE THE DIFFERENCE WITH <br /> FIRETECH FIRE FIGHTING LLC
               </h2>
               <p>
-              FTF is committed to providing state-of-the-art fire protection solutions. Fromoffering   quality <br />  firefighting   equipment   to   protecting   the   facility   by   propermaintenance   and <br /> installation   of   fire   safety   equipment’s   conducted <br />   by   thestandards of NFPA, Dubai & Sharjah Civil Defense
+                FTF is committed to providing state-of-the-art fire protection
+                solutions. Fromoffering quality <br /> firefighting equipment to
+                protecting the facility by propermaintenance and <br />{" "}
+                installation of fire safety equipment’s conducted <br /> by
+                thestandards of NFPA, Dubai & Sharjah Civil Defense
               </p>
 
               <div className="bannerbtn">
                 <div className="div-banner-submit">
                   <Link to="/Contactus">Get in touch</Link>
                   <Link to="/About"> About us</Link>
-
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -82,7 +81,10 @@ function Home() {
                 <div className="Small-text">
                   <h3>High-End Products</h3>
                   <p>
-                  We   are   dedicated   to   supply,   install,   and   maintain   firefighting   equipment.Being a Civil Defense approved firefighting company we offer wide range offire protection equipment’s meeting Civil defense and NFPA standards
+                    We are dedicated to supply, install, and maintain
+                    firefighting equipment.Being a Civil Defense approved
+                    firefighting company we offer wide range offire protection
+                    equipment’s meeting Civil defense and NFPA standards
                   </p>
                 </div>
               </div>
@@ -97,7 +99,9 @@ function Home() {
                 <div className="Small-text">
                   <h3>Great Response</h3>
                   <p>
-                  There is no compromise on safety and protection. We respond rapidly to yourneeds and concerns. Our seamless support is just a way of advocating for asafe and quality lifestyle
+                    There is no compromise on safety and protection. We respond
+                    rapidly to yourneeds and concerns. Our seamless support is
+                    just a way of advocating for asafe and quality lifestyle
                   </p>
                 </div>
               </div>
@@ -112,7 +116,10 @@ function Home() {
                 <div className="Small-text">
                   <h3>Value-driven</h3>
                   <p>
-                  At FTF, integrity, innovation, excellence, commitment, and teamwork are notwords for us; instead, it’s a value system that drives us to deliver the bestcare for the environment and people
+                    At FTF, integrity, innovation, excellence, commitment, and
+                    teamwork are notwords for us; instead, it’s a value system
+                    that drives us to deliver the bestcare for the environment
+                    and people
                   </p>
                 </div>
               </div>
@@ -133,9 +140,20 @@ function Home() {
               <div className="properties">
                 <div className="properties-text">
                   <h3>That’s How We Work</h3>
-                  <h2>PAGE Creative Ideas and Innovative <span>Approach</span> </h2>
+                  <h2>
+                    PAGE Creative Ideas and Innovative <span>Approach</span>{" "}
+                  </h2>
                   <p>
-                  When fire spreads, it does not look for rich or poor, big or small, famous orunknown, artist or a banker, human or an animal; it engulfs all. Therefore,our   fire   protection   company   aspires   to   protect   everyone   from   life-threatening events and avert all possible mishaps. To deliver the best safetytools and ensure protection, we provide and install fire safety equipment atyour place. Our years of experience in the Firetech industry have made ourvision   strong   and   enables   us   to   deliver   high-quality   safety   equipment   tovalue every life
+                    When fire spreads, it does not look for rich or poor, big or
+                    small, famous orunknown, artist or a banker, human or an
+                    animal; it engulfs all. Therefore,our fire protection
+                    company aspires to protect everyone from life-threatening
+                    events and avert all possible mishaps. To deliver the best
+                    safetytools and ensure protection, we provide and install
+                    fire safety equipment atyour place. Our years of experience
+                    in the Firetech industry have made ourvision strong and
+                    enables us to deliver high-quality safety equipment tovalue
+                    every life
                   </p>
 
                   <div className="properties-icon">
@@ -207,18 +225,28 @@ function Home() {
               <div className="properties-text for-captalize">
                 {/* <h3>About Our Firbrigs</h3> */}
                 <h2>
-                Why Choose FireTech Fire Fighting <br />
-                LLC?
+                  Why Choose FireTech Fire Fighting <br />
+                  LLC?
                 </h2>
                 <p>
-                Fire Tech Firefighting are the pioneers in safety and fire protection solutionssupply   and   fire   fighting   systems   installation   in   UAE.   Our   leading   fireextinguishing   devices,   systems   and   tools   are   state-of-the-art   and   preciselydesigned to combat any fire hazards. Being   a Civil Defence Approved FireFighting Company,  we have an experienced team of mechanical engineers,and electrical engineers, who ensure that your demands are met every time.When you consult us, whether for supply, installation or maintenance of yourprotective equipment for your personal or professional workplace setting, weensure complete satisfaction throughout the process.
+                  Fire Tech Firefighting are the pioneers in safety and fire
+                  protection solutionssupply and fire fighting systems
+                  installation in UAE. Our leading fireextinguishing devices,
+                  systems and tools are state-of-the-art and preciselydesigned
+                  to combat any fire hazards. Being a Civil Defence Approved
+                  FireFighting Company, we have an experienced team of
+                  mechanical engineers,and electrical engineers, who ensure that
+                  your demands are met every time.When you consult us, whether
+                  for supply, installation or maintenance of yourprotective
+                  equipment for your personal or professional workplace setting,
+                  weensure complete satisfaction throughout the process.
                 </p>
 
                 <div className="for-flex">
                   <div className="think">
                     <img src={fireicon} className="img-tls img-fluid" alt="" />
                     <h4>
-                    Pre-fire Preventive <br />
+                      Pre-fire Preventive <br />
                       Measures
                     </h4>
                   </div>
@@ -235,22 +263,18 @@ function Home() {
                 <div className="fire-flex">
                   <img src={icon} className="img-tls img-fluid" alt="" />
                   <h5>
-                  Quick and adequate fire fighting systems installation.
+                    Quick and adequate fire fighting systems installation.
                   </h5>
                 </div>
 
                 <div className="fire-flex">
                   <img src={icon} className="img-tls img-fluid" alt="" />
-                  <h5>
-                  Regular maintenance for maximum protection.
-                  </h5>
+                  <h5>Regular maintenance for maximum protection.</h5>
                 </div>
 
                 <div className="fire-flex">
                   <img src={icon} className="img-tls img-fluid" alt="" />
-                  <h5>
-                  Cost-effective products for easy accessibility.
-                  </h5>
+                  <h5>Cost-effective products for easy accessibility.</h5>
                 </div>
 
                 <div className="fire-btn">
@@ -363,11 +387,12 @@ function Home() {
             <div className="col-md-6">
               <div className="callimg">
                 <img src={fireman} className="img-tls img-fluid" alt="" />
+                sadasdasdasdasdadsadsasdasdasdasdasdsafdsfsfdkjshkjfhkjdshgkjhkjhfkjhkjhajds
               </div>
             </div>
           </div>
 
-          <Testimonial  />
+          <Testimonial />
         </div>
       </section>
       <Footer />
